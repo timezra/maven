@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>timezra.tycho</groupId>
+  <artifactId>new-plugin-project-archetype</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20111014221245</lastUpdated>
+  </versioning>
+</metadata>
