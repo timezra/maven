@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>Dropbox Maven Plugin</name>
+      <prefix>dropbox</prefix>
+      <artifactId>dropbox-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>

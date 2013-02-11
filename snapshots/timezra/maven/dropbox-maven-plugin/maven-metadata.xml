@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>timezra.maven</groupId>
+  <artifactId>dropbox-maven-plugin</artifactId>
+  <versioning>
+    <latest>1.5.3-SNAPSHOT</latest>
+    <versions>
+      <version>1.5.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20130211184448</lastUpdated>
+  </versioning>
+</metadata>
