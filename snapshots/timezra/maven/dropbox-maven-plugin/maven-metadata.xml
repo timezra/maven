@@ -3,10 +3,11 @@
   <groupId>timezra.maven</groupId>
   <artifactId>dropbox-maven-plugin</artifactId>
   <versioning>
-    <latest>1.5.3-SNAPSHOT</latest>
+    <latest>1.7.4-SNAPSHOT</latest>
     <versions>
       <version>1.5.3-SNAPSHOT</version>
+      <version>1.7.4-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20130211184448</lastUpdated>
+    <lastUpdated>20130917062759</lastUpdated>
   </versioning>
 </metadata>
