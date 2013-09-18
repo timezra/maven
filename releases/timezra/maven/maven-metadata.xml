@@ -6,5 +6,10 @@
       <prefix>dropbox</prefix>
       <artifactId>dropbox-maven-plugin</artifactId>
     </plugin>
+    <plugin>
+      <name>JRuby Maven Plugin</name>
+      <prefix>jruby</prefix>
+      <artifactId>jruby-maven-plugin</artifactId>
+    </plugin>
   </plugins>
 </metadata>
