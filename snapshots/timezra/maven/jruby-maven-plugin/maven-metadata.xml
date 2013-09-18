@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>timezra.maven</groupId>
+  <artifactId>jruby-maven-plugin</artifactId>
+  <versioning>
+    <latest>1.7.4-SNAPSHOT</latest>
+    <versions>
+      <version>1.7.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20130918223707</lastUpdated>
+  </versioning>
+</metadata>
