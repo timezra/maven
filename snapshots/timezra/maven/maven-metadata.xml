@@ -11,5 +11,10 @@
       <prefix>jruby</prefix>
       <artifactId>jruby-maven-plugin</artifactId>
     </plugin>
+    <plugin>
+      <name>JaCoCo Scala Maven Plugin</name>
+      <prefix>jacoco-scala</prefix>
+      <artifactId>jacoco-scala-maven-plugin</artifactId>
+    </plugin>
   </plugins>
 </metadata>

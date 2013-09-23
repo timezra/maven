@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>timezra.maven</groupId>
+  <artifactId>jacoco-scala-maven-plugin</artifactId>
+  <version>0.6.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20130923.094818</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20130923094818</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.6.3-20130923.094818-1</value>
+        <updated>20130923094818</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.6.3-20130923.094818-1</value>
+        <updated>20130923094818</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.6.3-20130923.094818-1</value>
+        <updated>20130923094818</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>0.6.3-20130923.094818-1</value>
+        <updated>20130923094818</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
