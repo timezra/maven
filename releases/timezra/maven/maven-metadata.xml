@@ -16,5 +16,10 @@
       <prefix>jacoco-scala</prefix>
       <artifactId>jacoco-scala-maven-plugin</artifactId>
     </plugin>
+    <plugin>
+      <name>Cucumber-JVM Maven Plugin</name>
+      <prefix>cucumber-jvm</prefix>
+      <artifactId>cucumber-jvm-maven-plugin</artifactId>
+    </plugin>
   </plugins>
 </metadata>
