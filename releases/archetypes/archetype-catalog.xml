@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-catalog
-	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd"
-	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<archetypes>
-		<archetype>
-			<groupId>timezra.tycho</groupId>
-			<artifactId>new-plugin-project-archetype</artifactId>
-			<version>1.0.0</version>
-			<description>Creates a new Tycho-enabled Eclipse plug-in project heirarchy along with a test fragment, a feature and an update site.</description>
-		</archetype>
-		<archetype>
-			<groupId>timezra.tycho</groupId>
-			<artifactId>new-plugin-project-archetype</artifactId>
-			<version>1.0.1</version>
-			<description>Creates a new Tycho-enabled Eclipse plug-in project heirarchy along with a test fragment, a feature and an update site.</description>
-		</archetype>
-	</archetypes>
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd"
+  xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <archetypes>
+    <archetype>
+      <groupId>timezra.tycho</groupId>
+      <artifactId>new-plugin-project-archetype</artifactId>
+      <version>1.0.0</version>
+      <description>Creates a new Tycho-enabled Eclipse plug-in project heirarchy along with a test fragment, a feature and an update site.</description>
+    </archetype>
+    <archetype>
+      <groupId>timezra.tycho</groupId>
+      <artifactId>new-plugin-project-archetype</artifactId>
+      <version>1.0.1</version>
+      <description>Creates a new Tycho-enabled Eclipse plug-in project heirarchy along with a test fragment, a feature and an update site.</description>
+    </archetype>
+    <archetype>
+      <groupId>timezra.maven</groupId>
+      <artifactId>cucumber-jvm-archetype</artifactId>
+      <version>1.1.5</version>
+      <description>A Maven archetype for a project with Cucumber-JVM specifications.</description>
+    </archetype>
+  </archetypes>
+</archetypes>
 </archetype-catalog>
