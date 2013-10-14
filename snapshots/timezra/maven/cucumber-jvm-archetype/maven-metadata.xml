@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>timezra.maven</groupId>
+  <artifactId>cucumber-jvm-archetype</artifactId>
+  <versioning>
+    <versions>
+      <version>1.1.5-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20131014233102</lastUpdated>
+  </versioning>
+</metadata>

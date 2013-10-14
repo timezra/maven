@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>timezra.maven</groupId>
+	<artifactId>cucumber-jvm-archetype</artifactId>
+	<version>1.1.5-SNAPSHOT</version>
+	<packaging>maven-archetype</packaging>
+	<name>cucumber-jvm-archetype</name>
+	<description>A Maven archetype for a project with Cucumber-JVM specifications.</description>
+	<url>https://github.com/timezra/cucumber-jvm-archetype</url>
+
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>LICENSE</url>
+            <distribution>repo</distribution>
+            <comments>
+          The MIT License is a free software license originating
+              at the Massachusetts Institute of Technology (MIT), used
+              by the MIT X Consortium.
+            </comments>
+        </license>
+    </licenses>
+
+	<scm>
+		<connection>scm:git:git://github.com/timezra/cucumber-jvm-archetype.git</connection>
+		<developerConnection>scm:git:git@github.com:timezra/cucumber-jvm-archetype.git</developerConnection>
+		<url>http://github.com/timezra/cucumber-jvm-archetype.git</url>
+	</scm>
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshot-repository</id>
+			<name>Snapshot Repository</name>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
+	
+    <organization>
+        <name>SolutionsIQ</name>
+        <url>http://www.solutionsiq.com/</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>timezra</id>
+            <name>Tim Myer</name>
+            <email>TMyer@SolutionsIQ.com</email>
+            <url>http://github.com/timezra</url>
+            <organization>SolutionsIQ</organization>
+            <organizationUrl>http://www.solutionsiq.com/</organizationUrl>
+            <roles>
+                <role>programmer</role>
+            </roles>
+            <timezone>-8</timezone>
+        </developer>
+    </developers>
+
+
+    <!-- Based on maven distribution signing information here: https://docs.sonatype.org/display/Repository/How+To+Generate+PGP+Signatures+With+Maven -->
+	<!-- To perform a release do: mvn release:perform -Darguments=-Dgpg.passphrase=__PASSPHRASE__ -->
+	<profiles>
+		<profile>
+			<id>sign</id>
+			<activation>
+				<property>
+					<name>performRelease</name>
+					<value>true</value>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>1.4</version>
+						<executions>
+							<execution>
+								<id>sign-artifacts</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.archetype</groupId>
+				<artifactId>archetype-packaging</artifactId>
+				<version>2.2</version>
+			</extension>
+		</extensions>
+
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-archetype-plugin</artifactId>
+					<version>2.2</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+                    <version>2.6</version>
+					<configuration>
+						<encoding>UTF-8</encoding>
+						<includeEmptyDirs>true</includeEmptyDirs>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>
