@@ -3,10 +3,11 @@
   <groupId>timezra.maven</groupId>
   <artifactId>jacoco-scala-maven-plugin</artifactId>
   <versioning>
-    <latest>0.6.3-SNAPSHOT</latest>
+    <latest>0.6.3.1-SNAPSHOT</latest>
     <versions>
       <version>0.6.3-SNAPSHOT</version>
+      <version>0.6.3.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20130923094818</lastUpdated>
+    <lastUpdated>20131014034955</lastUpdated>
   </versioning>
 </metadata>
