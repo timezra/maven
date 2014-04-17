@@ -19,7 +19,7 @@ cd /path/to/github/maven/repository/project
 
 git add releases/groupId/artifactId/version
 
-# You may need to add a new version to releases/archetypes/archetype-catalog.xml 
+\# You may need to add a new version to releases/archetypes/archetype-catalog.xml 
 
 git commit -a -m "Releasing groupId:artifactId:version"
 
