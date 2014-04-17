@@ -16,6 +16,12 @@
       <description>Creates a new Tycho-enabled Eclipse plug-in project heirarchy along with a test fragment, a feature and an update site.</description>
     </archetype>
     <archetype>
+      <groupId>timezra.tycho</groupId>
+      <artifactId>new-plugin-project-archetype</artifactId>
+      <version>1.0.2-SNAPSHOT</version>
+      <description>Creates a new Tycho-enabled Eclipse plug-in project heirarchy along with a test fragment, a feature and a p2 repository.</description>
+    </archetype>
+    <archetype>
       <groupId>timezra.maven</groupId>
       <artifactId>cucumber-jvm-archetype</artifactId>
       <version>1.1.5-SNAPSHOT</version>
